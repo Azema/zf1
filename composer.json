@@ -1,0 +1,31 @@
+{
+    "name": "azema/zf1",
+    "type": "library",
+    "description": "The minimal supported Zend Framework 1 Composer on Github!" ,
+    "keywords": [
+        "zend framework",
+        "zend framework 1",
+        "zendframework",
+        "zendframework1",
+        "zf",
+        "zf1",
+        "zend",
+        "zend framework github",
+        "zend framework 1 github",
+        "zf github",
+        "zf1 github",
+        "zend github"
+    ],
+    "homepage": "https://github.com/Azema/zf1",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "include-path": ["library/"],
+    "autoload": {
+        "psr-0" : {
+            "Zend_" : "library/"
+        }
+    },
+    "bin": [ "bin/zf.php" ]
+}
